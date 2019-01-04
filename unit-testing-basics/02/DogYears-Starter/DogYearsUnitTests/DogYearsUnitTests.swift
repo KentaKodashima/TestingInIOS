@@ -52,6 +52,14 @@ class DogYearsUnitTests: XCTestCase {
     XCTAssert(result == 0.0, "Calculator clear operation failed.")
   }
   
+  func testSettings() {
+    let sb = UIStoryboard(name: "Main", bundle: nil)
+    XCTAssertNotNil(sb, "Could not instanciate storyboard for Settings View creation.")
+    let vc = sb.instantiateViewController(withIdentifier: "SettingsView") as? SettingsViewController
+    XCTAssertNotNil(vc)
+    _ = vc?.view
+  }
+  
   func testInfoLoading() {
     let url = "https://raw.githubusercontent.com/FahimF/Test/master/DogYears-Info.rtf"
     
@@ -95,12 +103,5 @@ class DogYearsUnitTests: XCTestCase {
 //    let result = XCTWaiter.wait(for: [exp], timeout: 5.0)
 //    XCTAssert(result == XCTWaiter.Result.completed, "Loading content for Info View did not change text.")
 //  }
-  
-  func testPerformanceExample() {
-    // This is an example of a performance test case.
-    self.measure {
-      // Put the code you want to measure the time of here.
-    }
-  }
   
 }

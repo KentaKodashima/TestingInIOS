@@ -6,8 +6,20 @@
 	<dict>
 		<key>DogYears.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>PerformanceTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>UnitTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +30,11 @@
 			<true/>
 		</dict>
 		<key>EDDB3A4121DC53F4004A2435</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDF2E1D621E020F300B0A0A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
