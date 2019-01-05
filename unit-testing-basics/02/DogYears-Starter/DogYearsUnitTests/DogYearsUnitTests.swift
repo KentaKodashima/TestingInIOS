@@ -52,13 +52,13 @@ class DogYearsUnitTests: XCTestCase {
     XCTAssert(result == 0.0, "Calculator clear operation failed.")
   }
   
-  func testSettings() {
-    let sb = UIStoryboard(name: "Main", bundle: nil)
-    XCTAssertNotNil(sb, "Could not instanciate storyboard for Settings View creation.")
-    let vc = sb.instantiateViewController(withIdentifier: "SettingsView") as? SettingsViewController
-    XCTAssertNotNil(vc)
-    _ = vc?.view
-  }
+//  func testSettings() {
+//    let sb = UIStoryboard(name: "Main", bundle: nil)
+//    XCTAssertNotNil(sb, "Could not instanciate storyboard for Settings View creation.")
+//    let vc = sb.instantiateViewController(withIdentifier: "SettingsView") as? SettingsViewController
+//    XCTAssertNotNil(vc)
+//    _ = vc?.view
+//  }
   
   func testInfoLoading() {
     let url = "https://raw.githubusercontent.com/FahimF/Test/master/DogYears-Info.rtf"

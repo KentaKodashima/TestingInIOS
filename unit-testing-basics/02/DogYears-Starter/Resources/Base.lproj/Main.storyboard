@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Courier.ttc">
-            <string>Courier</string>
-        </array>
-        <array key="Didot.ttc">
-            <string>Didot</string>
-        </array>
-        <array key="Futura.ttc">
-            <string>Futura-Medium</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Master-->
         <scene sceneID="pY4-Hu-kfo">
@@ -80,7 +68,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2N8-Es-fZ7">
-                                                    <rect key="frame" x="60" y="19" width="291" height="21"/>
+                                                    <rect key="frame" x="60" y="19.5" width="291" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -196,7 +184,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFX-n1-DuT">
-                                                    <rect key="frame" x="8" y="7.5" width="164" height="233"/>
+                                                    <rect key="frame" x="8" y="8" width="164" height="233"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goz-mJ-16a" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
                                                             <rect key="frame" x="8" y="8" width="148" height="18"/>
@@ -217,13 +205,13 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlM-Jm-guO">
-                                                            <rect key="frame" x="8" y="30" width="148" height="27.5"/>
+                                                            <rect key="frame" x="8" y="30" width="148" height="28"/>
                                                             <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dro-cg-3oK" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="8" y="65.5" width="23.5" height="23.5"/>
+                                                            <rect key="frame" x="8" y="66" width="23" height="23"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="dro-cg-3oK" secondAttribute="height" multiplier="1:1" id="eQ5-Ox-ZDv"/>
@@ -245,7 +233,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMZ-up-RMZ" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="8" y="97" width="23.5" height="26"/>
+                                                            <rect key="frame" x="8" y="97" width="23" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -257,7 +245,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYc-Ye-gMY" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="8" y="131" width="23.5" height="26"/>
+                                                            <rect key="frame" x="8" y="131" width="23" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -269,7 +257,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLh-HL-jbZ" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="8" y="165" width="23.5" height="26"/>
+                                                            <rect key="frame" x="8" y="165" width="23" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -293,7 +281,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-I8-h0E" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="39.5" y="97" width="23" height="26"/>
+                                                            <rect key="frame" x="39" y="97" width="23.5" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -329,7 +317,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-bL-9KW" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="39.5" y="131" width="23" height="26"/>
+                                                            <rect key="frame" x="39" y="131" width="23.5" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -341,7 +329,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7G-Wh-4XJ" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="39.5" y="165" width="23" height="26"/>
+                                                            <rect key="frame" x="39" y="165" width="23.5" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -353,7 +341,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pg7-bH-IZe" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="70.5" y="164.5" width="23" height="26"/>
+                                                            <rect key="frame" x="70.5" y="165" width="23" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -365,7 +353,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0i-RW-LOl" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="70.5" y="198.5" width="23" height="26.5"/>
+                                                            <rect key="frame" x="70.5" y="199" width="23" height="26"/>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -377,7 +365,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="÷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzo-su-VnU" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="101.5" y="97" width="23" height="26"/>
+                                                            <rect key="frame" x="101.5" y="97" width="23.5" height="26"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                             <nil key="textColor"/>
@@ -389,7 +377,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="×" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNJ-Ns-5V9" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="101.5" y="131" width="23" height="26"/>
+                                                            <rect key="frame" x="101.5" y="131" width="23.5" height="26"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                             <nil key="textColor"/>
@@ -401,7 +389,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="−" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9M3-mN-Chr" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="101.5" y="164.5" width="23" height="26"/>
+                                                            <rect key="frame" x="101.5" y="165" width="23.5" height="26"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                             <nil key="textColor"/>
@@ -413,7 +401,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mF8-Hp-afQ" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="101.5" y="198.5" width="23" height="26.5"/>
+                                                            <rect key="frame" x="101.5" y="199" width="23.5" height="26"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.5019869942196532" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                             <nil key="textColor"/>
@@ -425,7 +413,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqN-I2-ZTJ" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="132.5" y="165" width="23.5" height="60"/>
+                                                            <rect key="frame" x="133" y="165" width="23" height="60"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                             <nil key="textColor"/>
@@ -437,7 +425,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRS-j7-MKE" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="132.5" y="131.5" width="23.5" height="26"/>
+                                                            <rect key="frame" x="133" y="131" width="23" height="26"/>
                                                             <color key="backgroundColor" red="1" green="0.21450401029999999" blue="0.15291253220000001" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <nil key="textColor"/>
@@ -449,7 +437,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◀︎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mP8-4w-kDs" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="132.5" y="66" width="23.5" height="57.5"/>
+                                                            <rect key="frame" x="133" y="66" width="23" height="57"/>
                                                             <color key="backgroundColor" red="1" green="0.21568627450980393" blue="0.15294117647058825" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -461,7 +449,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mp7-Md-Khn" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="39.5" y="65.5" width="23" height="23.5"/>
+                                                            <rect key="frame" x="39" y="66" width="23.5" height="23"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="mp7-Md-Khn" secondAttribute="height" multiplier="1:1" id="gCA-DD-w7d"/>
@@ -483,7 +471,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQV-Us-uFZ" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="70" y="65.5" width="23" height="23.5"/>
+                                                            <rect key="frame" x="70.5" y="66" width="23" height="23"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="gQV-Us-uFZ" secondAttribute="height" multiplier="1:1" id="2zL-1w-uoE"/>
@@ -505,7 +493,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2g-gg-KFP" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                                            <rect key="frame" x="101" y="66" width="23" height="23"/>
+                                                            <rect key="frame" x="101.5" y="66" width="23.5" height="23"/>
                                                             <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.31372549020000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="U2g-gg-KFP" secondAttribute="height" multiplier="1:1" id="XXp-LK-Xun"/>
@@ -643,7 +631,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unchecked" translatesAutoresizingMaskIntoConstraints="NO" id="5np-c3-0Z2">
-                                                    <rect key="frame" x="154" y="243.5" width="22" height="22"/>
+                                                    <rect key="frame" x="154" y="244" width="22" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="22" id="5EC-fY-19W"/>
                                                         <constraint firstAttribute="width" constant="22" id="Jdv-T6-d6b"/>
@@ -753,6 +741,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMR-Ns-3y9" customClass="RoundedLabel" customModule="DogYears" customModuleProvider="target">
                                 <rect key="frame" x="16" y="72" width="343" height="42"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="result"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="2Kk-ca-tN8"/>
                                 </constraints>
@@ -775,7 +764,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBp-TH-oYo" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="81" y="221.5" width="65.5" height="103.5"/>
+                                <rect key="frame" x="81.5" y="221.5" width="65.5" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="8">
@@ -792,7 +781,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJ1-ga-KnN" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="154.5" y="221.5" width="65" height="103.5"/>
+                                <rect key="frame" x="155" y="221.5" width="65" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="9">
@@ -809,7 +798,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP0-PH-kgP" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="227.5" y="221.5" width="66" height="103.5"/>
+                                <rect key="frame" x="228" y="221.5" width="65.5" height="103.5"/>
                                 <color key="backgroundColor" red="1" green="0.75297379262493258" blue="0.31292531132824719" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="÷">
@@ -826,7 +815,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clq-hF-M3E" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="227.5" y="333" width="66" height="103.5"/>
+                                <rect key="frame" x="228" y="333" width="65.5" height="103"/>
                                 <color key="backgroundColor" red="1" green="0.75297379262493258" blue="0.31292531132824719" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="×">
@@ -843,7 +832,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pR-r2-TFb" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="227.5" y="444.5" width="66" height="103.5"/>
+                                <rect key="frame" x="228" y="444" width="65.5" height="103.5"/>
                                 <color key="backgroundColor" red="1" green="0.75297379262493258" blue="0.31292531132824719" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="−">
@@ -860,7 +849,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aa-f9-SFY" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="81" y="333" width="65.5" height="103.5"/>
+                                <rect key="frame" x="81.5" y="333" width="65.5" height="103"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="5">
@@ -877,7 +866,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuR-UY-3dm" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="154.5" y="333" width="65" height="103.5"/>
+                                <rect key="frame" x="155" y="333" width="65" height="103"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="6">
@@ -894,7 +883,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gM-HV-BDl" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="81" y="444.5" width="65.5" height="103.5"/>
+                                <rect key="frame" x="81.5" y="444" width="65.5" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="2">
@@ -911,7 +900,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ac-Zf-cru" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="154.5" y="444.5" width="65" height="103.5"/>
+                                <rect key="frame" x="155" y="444" width="65" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="3">
@@ -928,7 +917,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvp-TB-bd4" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="8" y="556" width="139" height="103"/>
+                                <rect key="frame" x="8" y="555.5" width="139" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="0">
@@ -945,7 +934,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSJ-Jv-xw6" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="301.5" y="444.5" width="65.5" height="214.5"/>
+                                <rect key="frame" x="301.5" y="444" width="65.5" height="215"/>
                                 <color key="backgroundColor" red="1" green="0.75297379262493258" blue="0.31292531132824719" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="=">
@@ -962,7 +951,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPW-Yy-1HS" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="228.5" y="556" width="66" height="103"/>
+                                <rect key="frame" x="228" y="555.5" width="65.5" height="103.5"/>
                                 <color key="backgroundColor" red="1" green="0.75297379262493258" blue="0.31292531132824719" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="+">
@@ -979,7 +968,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcA-aw-KPI" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="302" y="148" width="65.5" height="177.5"/>
+                                <rect key="frame" x="301.5" y="148" width="65.5" height="177"/>
                                 <color key="backgroundColor" red="1" green="0.2145040103252257" blue="0.15291253222737711" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="◀︎">
@@ -995,7 +984,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1V-rZ-h48" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="302" y="333" width="65.5" height="103"/>
+                                <rect key="frame" x="301.5" y="333" width="65.5" height="103"/>
                                 <color key="backgroundColor" red="1" green="0.2145040103252257" blue="0.15291253222737711" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="C">
@@ -1012,7 +1001,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lg2-7u-0HC" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="155" y="555.5" width="65.5" height="103"/>
+                                <rect key="frame" x="155" y="555.5" width="65" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
                                 <state key="normal" title=".">
@@ -1029,7 +1018,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfJ-X1-0GC" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="8" y="221.5" width="65" height="103.5"/>
+                                <rect key="frame" x="8" y="221.5" width="65.5" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="7">
@@ -1046,7 +1035,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exp-UD-X30" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="8" y="333" width="65" height="103.5"/>
+                                <rect key="frame" x="8" y="333" width="65.5" height="103"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="4">
@@ -1063,7 +1052,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PX-m9-pAa" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="8" y="444" width="65" height="103.5"/>
+                                <rect key="frame" x="8" y="444" width="65.5" height="103.5"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <state key="normal" title="1">
@@ -1105,7 +1094,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEU-Bp-hn7" userLabel="Button - Cat" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="81" y="148" width="65.5" height="65.5"/>
+                                <rect key="frame" x="81.5" y="148" width="65.5" height="65.5"/>
                                 <color key="backgroundColor" red="1" green="0.75297379259999997" blue="0.31292531130000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cEU-Bp-hn7" secondAttribute="height" multiplier="1:1" id="FPe-Xx-R7l"/>
@@ -1130,7 +1119,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r62-6t-wE6" userLabel="Button - Chicken" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="154" y="148" width="65.5" height="65.5"/>
+                                <rect key="frame" x="155" y="148" width="65" height="65.5"/>
                                 <color key="backgroundColor" red="1" green="0.75297379259999997" blue="0.31292531130000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="r62-6t-wE6" secondAttribute="height" multiplier="1:1" id="Rcq-Jv-HdM"/>
@@ -1155,7 +1144,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Jr-uG-Rlz" userLabel="Button - Human" customClass="RoundedButton" customModule="DogYears" customModuleProvider="target">
-                                <rect key="frame" x="227" y="148" width="65.5" height="65.5"/>
+                                <rect key="frame" x="228" y="148" width="65.5" height="65.5"/>
                                 <color key="backgroundColor" red="1" green="0.75297379259999997" blue="0.31292531130000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2Jr-uG-Rlz" secondAttribute="height" multiplier="1:1" id="PDb-0h-qkP"/>
